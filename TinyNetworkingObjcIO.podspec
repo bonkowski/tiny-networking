@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name = 'TinyNetworking'
+  s.name = 'TinyNetworkingObjcIO'
   s.version = '0.4.0'
   s.license = 'MIT'
   s.summary = 'Tiny Networking Library'
   s.homepage = 'http://talk.objc.io/collections/networking'
-  s.source = { :git => 'https://github.com/objcio/tiny-networking.git', :tag => "#{s.version}" }
+  s.source = { :git => 'https://github.com/bonkowski/tiny-networking.git', :tag => "#{s.version}" }
   s.author = 'Bonkowski'
 
   s.ios.deployment_target = '10.0'
